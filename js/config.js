@@ -166,7 +166,7 @@ const CONFIG = {
 		url: 'https://thetower.atlassian.net',
 		search: '/browse/{}',
 		color: 'linear-gradient(135deg, #FFF, #0052cc)',
-		icon: 'Jira',
+		icon: 'jira',
 		quickLaunch: true,
 	  },
 	  {
@@ -175,7 +175,7 @@ const CONFIG = {
 		key: 'f',
 		url: 'https://figma.com',
 		color: 'linear-gradient(135deg, #5651FF, #7043A8)',
-		icon: 'Figma',
+		icon: 'figma',
 		quickLaunch: true,
 	  },
   ],
