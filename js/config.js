@@ -77,7 +77,7 @@ const CONFIG = {
 		name: 'Netlify',
 		key: 'n',
 		url: 'https://app.netlify.com/teams/artem/sites',
-		color: 'linear-gradient(135deg, rgb(212, 245, 255),rgb(234, 250, 255), rgb(234, 250, 255), #D3F6EF)',
+		color: '#D3F6EF',
 		icon: 'netlify',
 		quickLaunch: true,
 	},
@@ -164,8 +164,8 @@ const CONFIG = {
 		name: 'Jira',
 		key: 'j',
 		url: 'https://thetower.atlassian.net',
-		search: '/issues/?jql=project %3D DITTO AND text ~ {}',
-		color: 'linear-gradient(135deg, #FFF, #3F3F3F)',
+		search: '/browse/{}',
+		color: 'linear-gradient(135deg, #FFF, #0052cc)',
 		icon: 'Jira',
 		quickLaunch: true,
 	  },
@@ -199,7 +199,7 @@ const CONFIG = {
       limit: 1
     },
     {
-      name: 'DuckDuckGo',
+      name: 'Google',
       limit: 4
     },
   ],
@@ -209,7 +209,9 @@ const CONFIG = {
    */
   defaultSuggestions: {
     g: ['g/issues', 'g/pulls', 'gist.github.com'],
-    r: ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
+	r: ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
+	n: ['netlify'],
+	j: ['jira', 'https://thetower.atlassian.net/secure/RapidBoard.jspa?rapidView=761&projectKey=DITTO&selectedIssue=DITTO-251']
   },
 
   /**
@@ -258,7 +260,7 @@ const CONFIG = {
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
    */
-  twentyFourHourClock: true,
+  twentyFourHourClock: false,
 
   /**
    * File extension for icon images
