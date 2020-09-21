@@ -20,7 +20,7 @@ const influencers = CONFIG.influencers.map(influencerConfig => {
   return new {
     Default: DefaultInfluencer,
     Commands: CommandsInfluencer,
-    DuckDuckGo: DuckDuckGoInfluencer,
+    Google: GoogleInfluencer,
     History: HistoryInfluencer,
   } [influencerConfig.name]({
     defaultSuggestions: CONFIG.defaultSuggestions,
