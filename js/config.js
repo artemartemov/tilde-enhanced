@@ -77,7 +77,7 @@ const CONFIG = {
 		name: 'Netlify',
 		key: 'n',
 		url: 'https://app.netlify.com/teams/artem/sites',
-		color: '#D3F6EF',
+		color: '#009387',
 		icon: 'netlify',
 		quickLaunch: true,
 	},
