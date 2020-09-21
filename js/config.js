@@ -211,7 +211,7 @@ const CONFIG = {
     g: ['g/issues', 'g/pulls', 'gist.github.com'],
 	r: ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
 	n: ['netlify'],
-	j: ['jira', 'https://thetower.atlassian.net/secure/RapidBoard.jspa?rapidView=761&projectKey=DITTO&selectedIssue=DITTO-251']
+	j: ['jira', 'https://thetower.atlassian.net/secure/RapidBoard.jspa?rapidView=761&projectKey=DITTO&selectedIssue=DITTO-251'],
   },
 
   /**
