@@ -208,7 +208,7 @@ const CONFIG = {
       limit: 1
     },
     {
-      name: 'Google',
+      name: 'DuckDuckGo',
       limit: 4
     },
   ],
