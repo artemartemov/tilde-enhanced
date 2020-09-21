@@ -169,6 +169,15 @@ const CONFIG = {
 		icon: 'Jira',
 		quickLaunch: true,
 	  },
+	  {
+		category: 'Design',
+		name: 'Figma',
+		key: 'f',
+		url: 'https://figma.com',
+		color: 'linear-gradient(135deg, #5651FF, #7043A8)',
+		icon: 'Figma',
+		quickLaunch: true,
+	  },
   ],
 
   /**
