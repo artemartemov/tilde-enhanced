@@ -25,12 +25,22 @@ const CONFIG = {
 
     {
       category: 'Programming',
+      name: 'CanIUse',
+      key: 'can',
+      url: 'https://caniuse.com',
+      search: '/?search={}',
+      color: '#252017',
+      icon: 'github',
+      quickLaunch: true,
+    },
+    {
+      category: 'Programming',
       name: 'GitHub',
       key: 'g',
       url: 'https://github.com',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
-      icon: 'github',
+      icon: 'caniuse',
       quickLaunch: true,
     },
     {
